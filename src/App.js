@@ -1,5 +1,5 @@
 import React from 'react';
-import InputGroup from './R045_ReactstrapInputGroup'
+import ListGroup from './R047_ReactstrapListGroup'
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <InputGroup/>
+      <ListGroup/>
     </div>
   );
 }
