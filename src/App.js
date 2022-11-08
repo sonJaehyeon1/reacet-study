@@ -1,12 +1,11 @@
 import React from 'react';
-import ReactstrapTable from './R054_ReactstrapTable'
-import 'bootstrap/dist/css/bootstrap.css'
+import Promise from './R065_Promise'
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
-      <ReactstrapTable/>
+      <Promise/>
     </div>
   );
 }
