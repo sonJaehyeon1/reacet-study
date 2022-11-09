@@ -1,11 +1,11 @@
 import React from 'react';
-import Promise from './R065_Promise'
+import ReactHoc from './Hoc/R075_ReactHoc'
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
-      <Promise/>
+      <ReactHoc name='React200'/>
     </div>
   );
 }
