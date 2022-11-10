@@ -1,13 +1,16 @@
-import React from 'react';
-import ReactHoc from './Hoc/R075_ReactHoc'
+import React , {Component} from 'react';
+import StrAddButton from './StrAddButton'
 
-function App() {
-  return (
-    <div>
-      <h1>Start React 200!</h1>
-      <ReactHoc name='React200'/>
-    </div>
-  );
+class App extends Component{
+  render(){
+    return(
+      <div>
+        <h1>Start React 200</h1>
+        <span>{this.props.store.getState().data.str}</span><br/>
+        <StrAddButton store={this.props.store}/>
+      </div>
+    )
+  }
 }
 
 export default App;
